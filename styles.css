@@ -1,0 +1,19 @@
+.calculator{
+    border: solid;
+    width: 28.125rem;
+    padding: 5%;
+}
+
+.output {
+    display: inline;
+    margin: 5%;
+}
+
+#scale {
+    margin-bottom: 5%;
+}
+
+
+#calcButton {
+    margin-left: 5%;
+}

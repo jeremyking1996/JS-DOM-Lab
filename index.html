@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="calculator">
+<h2><strong>Temperature Scale Converter</strong></h2>
+
+
+<label for="scale" >Scale</label>
+<select name="scale" id="scale">
+  <option value="farenheit" id="farenheit">Farenheit</option>
+  <option value="celsius" id="celsius">Celsius</option>
+  <option value="kelvin" id="kelvin">Kelvin</option>
+  <option value="rankine" id="rankine">Rankine</option>
+</select>
+
+<label for="value" id="tempValue">Value</label>
+    <input type="number" value="number" id="tempValue">
+    
+    
+    <button id="calcButton">Calculate</button><br>
+
+<div id="farenheitOutput" class="output">Farenheit</div>
+<div id="celsiusOutput" class="output">Celsius</div>
+<div id="kelvinOutput" class="output">Kelvin</div>
+<div id="rankineOutput" class="output">Rankine</div>
+
+
+</div>
+<script src="app.js"></script>
+
+
+
+  
+</body>
+
+</html>
